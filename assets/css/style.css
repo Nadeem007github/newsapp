@@ -1,0 +1,12 @@
+.background{
+    background-color: blueviolet;
+}
+.btn:hover{
+    background-color: rgb(114,35,187);
+}
+.card-source{
+    padding: 5px;
+    background-color: bisque;
+    font-size: 12px;
+    text-align: center;
+}
