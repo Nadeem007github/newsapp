@@ -54,7 +54,7 @@ export default class Home extends Component {
                             loader={<h4>Loading...</h4>}
                         >
                         <div className='row'>
-                            <h5 className='background text-light text-center p-2'>{this.props.q} News Section</h5>
+                            <h5 className='background text-dark text-center p-2'>{this.props.q} News Section</h5>
                             {
                                 this.state.articles.map((item, index) => {
                                     return <Newsitem
