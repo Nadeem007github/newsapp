@@ -21,7 +21,7 @@ export default class App extends Component {
   render(){
     return(
       <>
-      <BrowserRouter>
+      <BrowserRouter basename='/newsapp'>
         <Navbar changeLanguage={this.changeLanguage} changeSearch={this.changeSearch}/>
         <Routes>
           <Route path='' element={<Home search={this.state.search} language={this.state.language} q="All"/>}/>
